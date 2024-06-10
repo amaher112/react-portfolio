@@ -4,7 +4,7 @@ const ProjectContainer = styled.div`
   border-radius: 8px;
   border: 2px solid;
   display: grid;
-   grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   padding: 0.6em 1.2em;
   margin: 5px;
@@ -16,16 +16,19 @@ const ProjectBox = styled.div`
   padding: 0.6em 1.2em;
   margin: 10px;
   display: flex;
-`;
-
-const ProjectDescription = styled.div`
-  display: flex;
   flex-direction: column;
 `;
 
-const ProjectImg = styled.a`
+const ProjectTitle = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+`;
 
-`
+const ProjectLinks = styled.div`
+  display: flex;
+  justify-content: space-around;
+`;
 
 function Portfolio() {
   return (
@@ -35,24 +38,142 @@ function Portfolio() {
       </h2>
       <ProjectContainer>
         <ProjectBox>
-        <img src="/src/assets/adventure-awaits-screenshot.png" alt='adventure-awaits-screenshot' width="50%" height="50%" />
-        <ProjectDescription>
+          <ProjectTitle>
+            <img
+              src="/src/assets/adventure-awaits-screenshot.png"
+              alt="adventure-awaits-screenshot"
+              width="50%"
+             
+            />
             <h3>Adventure Awaits</h3>
-            
-           
-            <p>
-              A React, single-page application that allows a user to create
-              trips and packing lists. The user can also find hotels and
-              restaurants by typing in the city of their choice.
-            </p>
-          </ProjectDescription>
+          </ProjectTitle>
+          <p>
+            A React, single-page application that allows a user to create trips
+            and packing lists. The user can also find hotels and restaurants by
+            typing in the city of their choice.
+          </p>
+
+          <ProjectLinks>
+            <h6>Click here for GitHub repo</h6>
+            <h6>Click here for live site</h6>
+          </ProjectLinks>
         </ProjectBox>
         <ProjectBox>
-            <img src="/src/assets/weather-dashboard-screenshot.png" alt="weather-dashboard-screenshot" width="50%" height="50%"  />
-        <ProjectDescription>
+          <ProjectTitle>
+            <img
+              src="/src/assets/weather-dashboard-screenshot.png"
+              alt="weather-dashboard-screenshot"
+              width="50%"
+              
+            />
+
             <h3>Weather Dashboard</h3>
-            <p>Shows the current weather of a given city and 5-day forecast. This dashboard will save your city searches and allow you to get the weather for those cities again.</p>
-        </ProjectDescription>
+          </ProjectTitle>
+          <p>
+            Shows the current weather of a given city and 5-day forecast. This
+            dashboard will save your city searches and allow you to get the
+            weather for those cities again.
+          </p>
+          <ProjectLinks>
+            <h6>Click here for GitHub repo</h6>
+            <h6>Click here for live site</h6>
+          </ProjectLinks>
+        </ProjectBox>
+        <ProjectBox>
+          <ProjectTitle>
+            <img
+              src="/src/assets/shapeshift-screenshot.png"
+              alt="shapeshift-screenshot"
+              width="50%"
+             
+            />
+
+            <h3>ShapeShift</h3>
+          </ProjectTitle>
+          <p>
+            This appliction allows you to keep track of your fitness and
+            wellness routines, calculate your BMR, total Daily Energy
+            Expenditure, caloric needs, and ideal body weight all while logging
+            and tracking past work outs. If you want to gain mass, lose weight,
+            or maintain, we got you covered with ShapeShift!
+          </p>
+          <ProjectLinks>
+            <h6>Click here for GitHub repo</h6>
+            <h6>Click here for live site</h6>
+          </ProjectLinks>
+        </ProjectBox>
+        <ProjectBox>
+          <ProjectTitle>
+            <img
+              src="/src/assets/note-taker-screenshot.png"
+              alt="note-taker-screenshot"
+              width="50%"
+              
+            />
+
+            <h3>Note Taker</h3>
+          </ProjectTitle>
+          <p>
+            This project uses HTML and API calls to save and retrieve notes. I
+            was responsible for the back-end code such as the GET requests for
+            both HTML files and APIs, and the POST request for the notes API.
+            The code saves each new note to the json file and renders it on the
+            page.
+          </p>
+          <ProjectLinks>
+            <h6>Click here for GitHub repo</h6>
+            <h6>Click here for live site</h6>
+          </ProjectLinks>
+        </ProjectBox>
+        <ProjectBox>
+          <ProjectTitle>
+            <img
+              src="/src/assets/social-network.png"
+              alt="globe with four silouhette icons connected to the globe by lines"
+              width="30%"
+              
+            />
+
+            <a href="https://github.com/amaher112/social-network-api.git">
+              <h3>Social Network API</h3>
+            </a>
+          </ProjectTitle>
+          <p>
+            The purpose of this project was to create a back-end social media
+            application that handles users, thoughts and reactions. I was
+            responsible for all the code and utilized Express and Mongoose. 
+          </p>
+          <ProjectLinks>
+            <h6>Click here for GitHub repo</h6>
+            <h6>Click here for live site</h6>
+          </ProjectLinks>
+        </ProjectBox>
+        <ProjectBox>
+          <ProjectTitle>
+            <img
+              src="/src/assets/pwa-screenshot.png"
+              alt="pwa-text-editor-screenshot"
+              width="50%"
+              
+            />
+
+            <a href="https://github.com/amaher112/pwa-text-editor.git">
+              <h3>PWA Text Editor</h3>
+            </a>
+          </ProjectTitle>
+          <p>
+            This application allows a user to write text, snippets of code, or
+            anything that the user wants to remember. They can also download the
+            application for offline use. I was responsible for the PUT and GET
+            methods, as well as setting up the webpack config and package.json
+            scripts. I also added event listeners, and wrote code for a service
+            worker.
+          </p>
+          <ProjectLinks>
+            <h6>Click here for GitHub repo</h6>
+            <h6>Click here for live site</h6>
+          </ProjectLinks>
+          
         </ProjectBox>
       </ProjectContainer>
     </>
