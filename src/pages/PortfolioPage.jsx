@@ -43,7 +43,6 @@ function Portfolio() {
               src="/src/assets/adventure-awaits-screenshot.png"
               alt="adventure-awaits-screenshot"
               width="50%"
-             
             />
             <h3>Adventure Awaits</h3>
           </ProjectTitle>
@@ -54,8 +53,10 @@ function Portfolio() {
           </p>
 
           <ProjectLinks>
-            <h6>Click here for GitHub repo</h6>
-            <h6>Click here for live site</h6>
+            <a href="https://github.com/amaher112/adventure-awaits.git" target="_blank">
+            <h5>Click here for GitHub repo</h5></a>
+            <a href="https://adventure-awaits-gagg.onrender.com" target="_blank">
+            <h5>Click here for live site</h5></a>
           </ProjectLinks>
         </ProjectBox>
         <ProjectBox>
@@ -64,7 +65,6 @@ function Portfolio() {
               src="/src/assets/weather-dashboard-screenshot.png"
               alt="weather-dashboard-screenshot"
               width="50%"
-              
             />
 
             <h3>Weather Dashboard</h3>
@@ -75,8 +75,10 @@ function Portfolio() {
             weather for those cities again.
           </p>
           <ProjectLinks>
-            <h6>Click here for GitHub repo</h6>
-            <h6>Click here for live site</h6>
+            <a href="https://github.com/amaher112/weather-dashboard.git" target="_blank">
+            <h5>Click here for GitHub repo</h5></a>
+            <a href="https://amaher112.github.io/weather-dashboard/" target="_blank">
+            <h5>Click here for live site</h5></a>
           </ProjectLinks>
         </ProjectBox>
         <ProjectBox>
@@ -85,7 +87,6 @@ function Portfolio() {
               src="/src/assets/shapeshift-screenshot.png"
               alt="shapeshift-screenshot"
               width="50%"
-             
             />
 
             <h3>ShapeShift</h3>
@@ -98,8 +99,18 @@ function Portfolio() {
             or maintain, we got you covered with ShapeShift!
           </p>
           <ProjectLinks>
-            <h6>Click here for GitHub repo</h6>
-            <h6>Click here for live site</h6>
+            <a
+              href="https://github.com/amaher112/shapeShift.git"
+              target="_blank"
+            >
+              <h5>Click here for GitHub repo</h5>
+            </a>
+            <a
+              href="https://shape-shift2-dd464e575484.herokuapp.com/login"
+              target="_blank"
+            >
+              <h5>Click here for live site</h5>
+            </a>
           </ProjectLinks>
         </ProjectBox>
         <ProjectBox>
@@ -108,7 +119,6 @@ function Portfolio() {
               src="/src/assets/note-taker-screenshot.png"
               alt="note-taker-screenshot"
               width="50%"
-              
             />
 
             <h3>Note Taker</h3>
@@ -121,8 +131,18 @@ function Portfolio() {
             page.
           </p>
           <ProjectLinks>
-            <h6>Click here for GitHub repo</h6>
-            <h6>Click here for live site</h6>
+            <a
+              href="https://github.com/amaher112/note-taker.git"
+              target="_blank"
+            >
+              <h5>Click here for GitHub repo</h5>
+            </a>
+            <a
+              href="https://limitless-refuge-95387-9df5404df67f.herokuapp.com/"
+              target="_blank"
+            >
+              <h5>Click here for live site</h5>
+            </a>
           </ProjectLinks>
         </ProjectBox>
         <ProjectBox>
@@ -131,21 +151,23 @@ function Portfolio() {
               src="/src/assets/social-network.png"
               alt="globe with four silouhette icons connected to the globe by lines"
               width="30%"
-              
             />
 
-            <a href="https://github.com/amaher112/social-network-api.git">
-              <h3>Social Network API</h3>
-            </a>
+            <h3>Social Network API</h3>
           </ProjectTitle>
           <p>
             The purpose of this project was to create a back-end social media
             application that handles users, thoughts and reactions. I was
-            responsible for all the code and utilized Express and Mongoose. 
+            responsible for all the code and utilized Express and Mongoose.
           </p>
           <ProjectLinks>
-            <h6>Click here for GitHub repo</h6>
-            <h6>Click here for live site</h6>
+            <a
+              href="https://github.com/amaher112/social-network-api.git"
+              target="_blank"
+            >
+              <h5>Click here for GitHub repo</h5>
+            </a>
+            {/* <h5>Click here for live site</h5> */}
           </ProjectLinks>
         </ProjectBox>
         <ProjectBox>
@@ -154,12 +176,9 @@ function Portfolio() {
               src="/src/assets/pwa-screenshot.png"
               alt="pwa-text-editor-screenshot"
               width="50%"
-              
             />
 
-            <a href="https://github.com/amaher112/pwa-text-editor.git">
-              <h3>PWA Text Editor</h3>
-            </a>
+            <h3>PWA Text Editor</h3>
           </ProjectTitle>
           <p>
             This application allows a user to write text, snippets of code, or
@@ -170,10 +189,16 @@ function Portfolio() {
             worker.
           </p>
           <ProjectLinks>
-            <h6>Click here for GitHub repo</h6>
-            <h6>Click here for live site</h6>
+            <a
+              href="https://github.com/amaher112/pwa-text-editor.git"
+              target="_blank"
+            >
+              <h5>Click here for GitHub repo</h5>
+            </a>
+            <a href="https://pwa-text-editor-b1t4.onrender.com" target="_blank">
+              <h5>Click here for live site</h5>
+            </a>
           </ProjectLinks>
-          
         </ProjectBox>
       </ProjectContainer>
     </>
