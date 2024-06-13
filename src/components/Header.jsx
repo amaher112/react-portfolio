@@ -19,7 +19,8 @@ export default function Header() {
         padding: 0;
       }
     `}</style>
-    <header style={{width: '100%', height: '125px', backgroundColor: '#242424'}}> 
+    <header style={{width: '100%', height: '125px'}}>
+      {/* , backgroundColor: '#242424'}}>  */}
     <h1>Anne-Michele Maher</h1>
     {/* <h2>Full Stack Web Developer</h2> */}
     <nav style={{ display: 'flex', justifyContent: 'center', padding: '10px', fontSize: '18px' ,}}>
@@ -32,9 +33,9 @@ export default function Header() {
         <Link className="nav-link text-light" to="/contact">
         Contact
       </Link>
-      <Link className="nav-link text-light" to="/resume">
+      {/* <Link className="nav-link text-light" to="/resume">
       Resume
-    </Link>
+    </Link> */}
     </nav>
     </header>
     </>

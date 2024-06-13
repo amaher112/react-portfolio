@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+const StyledButton = styled.button`
+margin: 30px;
+
+`
+
 function About() {
   return (
     <>
@@ -22,6 +27,9 @@ function About() {
         you may have.
       </p>
       {/* <Line />   */}
+      <StyledButton>
+        <a href='assets/resume.pdf' download>Click here to download my resume</a>
+        </StyledButton>
     </>
   );
 }
