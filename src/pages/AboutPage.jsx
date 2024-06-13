@@ -28,7 +28,7 @@ function About() {
       </p>
       {/* <Line />   */}
       <StyledButton>
-        <a href='assets/resume.pdf' download>Click here to download my resume</a>
+        <a href='/images/resume.pdf' download>Click here to download my resume</a>
         </StyledButton>
     </>
   );

@@ -43,7 +43,7 @@ function Portfolio() {
         <ProjectBox>
           <ProjectTitle>
             <img
-              src="/src/assets/adventure-awaits-screenshot.png"
+              src="/images/adventure-awaits-screenshot.png"
               alt="adventure-awaits-screenshot"
               width="50%"
             />
@@ -72,7 +72,7 @@ function Portfolio() {
         <ProjectBox>
           <ProjectTitle>
             <img
-              src="/src/assets/weather-dashboard-screenshot.png"
+              src="/images/weather-dashboard-screenshot.png"
               alt="weather-dashboard-screenshot"
               width="50%"
             />
@@ -98,7 +98,7 @@ function Portfolio() {
         <ProjectBox>
           <ProjectTitle>
             <img
-              src="/src/assets/shapeshift-screenshot.png"
+              src="/images/shapeshift-screenshot.png"
               alt="shapeshift-screenshot"
               width="50%"
             />
@@ -128,7 +128,7 @@ function Portfolio() {
         <ProjectBox>
           <ProjectTitle>
             <img
-              src="/src/assets/note-taker-screenshot.png"
+              src="/images/note-taker-screenshot.png"
               alt="note-taker-screenshot"
               width="50%"
             />
@@ -158,7 +158,7 @@ function Portfolio() {
         <ProjectBox>
           <ProjectTitle>
             <img
-              src="/src/assets/social-network.png"
+              src="/images/social-network.png"
               alt="globe with four silouhette icons connected to the globe by lines"
               width="30%"
             />
@@ -182,7 +182,7 @@ function Portfolio() {
         <ProjectBox>
           <ProjectTitle>
             <img
-              src="/src/assets/pwa-screenshot.png"
+              src="/images/pwa-screenshot.png"
               alt="pwa-text-editor-screenshot"
               width="50%"
             />

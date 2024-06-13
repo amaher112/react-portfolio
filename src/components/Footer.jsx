@@ -21,10 +21,10 @@ function Footer() {
         <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="40" height="40" />
     </a>
         <a href="https://www.linkedin.com/in/anne-michele-maher/" target="_blank" rel="noopener noreferrer">
-       <img src='/src/assets/linked-in.png' alt='LinkedIn' width='40' height='40'/>
+       <img src='/images/linked-in.png' alt='LinkedIn' width='40' height='40'/>
     </a>
         <a href="mailto:annemichelemaher@gmail.com">
-          <img src='/src/assets/email.png' alt='Email' width='40' height='40'/>
+          <img src='/images/email.png' alt='Email' width='40' height='40'/>
         </a>
       </StyledFooter>
     );
