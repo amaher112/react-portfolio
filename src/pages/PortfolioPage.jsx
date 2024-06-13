@@ -8,6 +8,9 @@ const ProjectContainer = styled.div`
   grid-gap: 10px;
   padding: 0.6em 1.2em;
   margin: 5px;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 
 const ProjectBox = styled.div`
@@ -47,16 +50,23 @@ function Portfolio() {
             <h3>Adventure Awaits</h3>
           </ProjectTitle>
           <p>
-            A React, single-page application that allows a user to create trips
-            and packing lists. The user can also find hotels and restaurants by
-            typing in the city of their choice.
+            A React, single-page application that allows a user to create and
+            plan a vacation.
           </p>
 
           <ProjectLinks>
-            <a href="https://github.com/amaher112/adventure-awaits.git" target="_blank">
-            <h5>Click here for GitHub repo</h5></a>
-            <a href="https://adventure-awaits-gagg.onrender.com" target="_blank">
-            <h5>Click here for live site</h5></a>
+            <a
+              href="https://github.com/amaher112/adventure-awaits.git"
+              target="_blank"
+            >
+              <h5>GitHub Repo</h5>
+            </a>
+            <a
+              href="https://adventure-awaits-gagg.onrender.com"
+              target="_blank"
+            >
+              <h5>Live Site</h5>
+            </a>
           </ProjectLinks>
         </ProjectBox>
         <ProjectBox>
@@ -69,16 +79,20 @@ function Portfolio() {
 
             <h3>Weather Dashboard</h3>
           </ProjectTitle>
-          <p>
-            Shows the current weather of a given city and 5-day forecast. This
-            dashboard will save your city searches and allow you to get the
-            weather for those cities again.
-          </p>
+          <p>Shows the current weather of a given city and 5-day forecast.</p>
           <ProjectLinks>
-            <a href="https://github.com/amaher112/weather-dashboard.git" target="_blank">
-            <h5>Click here for GitHub repo</h5></a>
-            <a href="https://amaher112.github.io/weather-dashboard/" target="_blank">
-            <h5>Click here for live site</h5></a>
+            <a
+              href="https://github.com/amaher112/weather-dashboard.git"
+              target="_blank"
+            >
+              <h5>GitHub Repo</h5>
+            </a>
+            <a
+              href="https://amaher112.github.io/weather-dashboard/"
+              target="_blank"
+            >
+              <h5>Live Site</h5>
+            </a>
           </ProjectLinks>
         </ProjectBox>
         <ProjectBox>
@@ -92,24 +106,22 @@ function Portfolio() {
             <h3>ShapeShift</h3>
           </ProjectTitle>
           <p>
-            This appliction allows you to keep track of your fitness and
-            wellness routines, calculate your BMR, total Daily Energy
-            Expenditure, caloric needs, and ideal body weight all while logging
-            and tracking past work outs. If you want to gain mass, lose weight,
-            or maintain, we got you covered with ShapeShift!
+            This group project application allows you to keep track of your
+            fitness and wellness routines, as well as makes certain wellness
+            calculations.
           </p>
           <ProjectLinks>
             <a
               href="https://github.com/amaher112/shapeShift.git"
               target="_blank"
             >
-              <h5>Click here for GitHub repo</h5>
+              <h5>GitHub Repo</h5>
             </a>
             <a
               href="https://shape-shift2-dd464e575484.herokuapp.com/login"
               target="_blank"
             >
-              <h5>Click here for live site</h5>
+              <h5>Live Site</h5>
             </a>
           </ProjectLinks>
         </ProjectBox>
@@ -124,24 +136,22 @@ function Portfolio() {
             <h3>Note Taker</h3>
           </ProjectTitle>
           <p>
-            This project uses HTML and API calls to save and retrieve notes. I
-            was responsible for the back-end code such as the GET requests for
-            both HTML files and APIs, and the POST request for the notes API.
-            The code saves each new note to the json file and renders it on the
-            page.
+            This project uses API calls to save and retrieve notes. I was
+            responsible for the back-end code that saves each new note and
+            renders it on the page.
           </p>
           <ProjectLinks>
             <a
               href="https://github.com/amaher112/note-taker.git"
               target="_blank"
             >
-              <h5>Click here for GitHub repo</h5>
+              <h5>GitHub Repo</h5>
             </a>
             <a
               href="https://limitless-refuge-95387-9df5404df67f.herokuapp.com/"
               target="_blank"
             >
-              <h5>Click here for live site</h5>
+              <h5>Live Site</h5>
             </a>
           </ProjectLinks>
         </ProjectBox>
@@ -156,18 +166,17 @@ function Portfolio() {
             <h3>Social Network API</h3>
           </ProjectTitle>
           <p>
-            The purpose of this project was to create a back-end social media
-            application that handles users, thoughts and reactions. I was
-            responsible for all the code and utilized Express and Mongoose.
+            This back-end social media application handles users, thoughts and
+            reactions. I was responsible for all the code and utilized Express
+            and Mongoose.
           </p>
           <ProjectLinks>
             <a
               href="https://github.com/amaher112/social-network-api.git"
               target="_blank"
             >
-              <h5>Click here for GitHub repo</h5>
+              <h5>GitHub Repo</h5>
             </a>
-            {/* <h5>Click here for live site</h5> */}
           </ProjectLinks>
         </ProjectBox>
         <ProjectBox>
@@ -183,20 +192,17 @@ function Portfolio() {
           <p>
             This application allows a user to write text, snippets of code, or
             anything that the user wants to remember. They can also download the
-            application for offline use. I was responsible for the PUT and GET
-            methods, as well as setting up the webpack config and package.json
-            scripts. I also added event listeners, and wrote code for a service
-            worker.
+            application for offline use.
           </p>
           <ProjectLinks>
             <a
               href="https://github.com/amaher112/pwa-text-editor.git"
               target="_blank"
             >
-              <h5>Click here for GitHub repo</h5>
+              <h5>GitHub Repo</h5>
             </a>
             <a href="https://pwa-text-editor-b1t4.onrender.com" target="_blank">
-              <h5>Click here for live site</h5>
+              <h5>Live Site</h5>
             </a>
           </ProjectLinks>
         </ProjectBox>
