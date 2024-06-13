@@ -10,7 +10,7 @@ function About() {
     <>
       <h2>About Me</h2>
 
-      <img src="./src/assets/profile-pic.jpg" width="30%" />
+      <img src="src/assets/profile-pic.jpg" width="30%" />
 
       <p>
         I am a recent graduate of University of Richmond's Full Stack Coding
