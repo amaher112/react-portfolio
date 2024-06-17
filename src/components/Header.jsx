@@ -21,7 +21,7 @@ export default function Header() {
     `}</style>
     <header style={{width: '100%', height: '125px'}}>
       {/* , backgroundColor: '#242424'}}>  */}
-    <h1>Anne-Michele Maher</h1>
+    <h1>Anne-Michele Yong</h1>
     {/* <h2>Full Stack Web Developer</h2> */}
     <nav style={{ display: 'flex', justifyContent: 'center', padding: '10px', fontSize: '18px' ,}}>
         <Link className="nav-link text-light" to="/">
