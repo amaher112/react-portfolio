@@ -72,70 +72,23 @@ const Input = styled.input`
 `;
 
 function Contact() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
 
-  const handleBlur = (event) => {
-    const { name, value } = event.target;
-
-    if (name === "name" && !value) {
-      alert("Name is required");
-    }
-    if (name === "email" && !value) {
-      alert("Email is required");
-    }
-    if (name === "message" && !value) {
-      alert("Message is required");
-    }
-    if (name === "email" && value) {
-      const email = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (!email.test(value)) {
-        alert("Invalid email address");
-      }
-    }
-    if (name === "message" && value && value.length < 10) {
-      alert("Message must be at least 10 characters");
-    }
-  };
 
   return (
     <ContactContainer>
       <ContactBox>
-        <h2>Contact Me</h2>
-        <Form>
-          <Label>
-            <Input
-              type="text"
-              name="name"
-              placeholder="Name"
-              value={name}
-              onBlur={handleBlur}
-              onChange={(e) => setName(e.target.value)}
-            />
-          </Label>
-          <Label>
-            <Input
-              type="email"
-              name="email"
-              placeholder="E-mail"
-              value={email}
-              onBlur={handleBlur}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </Label>
-          <Label>
-            <MessageInput
-              type="text"
-              name="message"
-              placeholder="Message"
-              value={message}
-              onBlur={handleBlur}
-              onChange={(e) => setMessage(e.target.value)}
-            />
-          </Label>
-          <StyledButton type="submit">Submit</StyledButton>
-        </Form>
+        <h2>Contact Me Here:</h2>
+        {/* <h2>Here are the ways you can reach me. Do not hesitate to get in touch!</h2> */}
+        <p>Email me at:
+          <a href="mailto:annemicheleyong@gmail.com"> annemicheleyong@gmail.com</a>
+          </p>
+          <p>Visit my LinkedIn page 
+            <a href="https://www.linkedin.com/in/anne-michele-yong/" target="_blank"> HERE</a>
+            </p>
+            <p>View my GitHub 
+              <a href="https://github.com/amaher112" target="_blank"> HERE</a>
+            </p>
+        
       </ContactBox>
     </ContactContainer>
   );
