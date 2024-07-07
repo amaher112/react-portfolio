@@ -18,13 +18,13 @@ function About() {
         forward to a career change. Through the bootcamp I learned many
         technologies such as HTML, CSS, JavaScript, Node.js, Express.js,
         Bootstrap, React, MySQL, and MongoDB. I am able to create a full stack
-        MERN application (with APIs if applicable) and I also have experience
+        MERN application with APIs if applicable, and I also have experience
         with PWAs.
       </p>
       <p>
         I am excited to continue my coding journey and am ready to learn every
         step of the way. Please do not hesitate to reach out with any questions
-        you may have.
+        you may have!
       </p>
       {/* <Line />   */}
       <StyledButton>

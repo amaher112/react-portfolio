@@ -20,6 +20,8 @@ const ProjectBox = styled.div`
   margin: 10px;
   display: flex;
   flex-direction: column;
+
+  
 `;
 
 const ProjectTitle = styled.div`
@@ -31,6 +33,7 @@ const ProjectTitle = styled.div`
 const ProjectLinks = styled.div`
   display: flex;
   justify-content: space-around;
+  
 `;
 
 function Portfolio() {
@@ -51,8 +54,9 @@ function Portfolio() {
           </ProjectTitle>
           <p>
             A React, single-page application that allows a user to create and
-            plan a vacation.
+            plan a vacation anywhere in the world.
           </p>
+          <i>Skills used: Node.js, MongoDB, GraphQL, Apollo</i>
 
           <ProjectLinks>
             <a
@@ -79,7 +83,11 @@ function Portfolio() {
 
             <h3>Weather Dashboard</h3>
           </ProjectTitle>
-          <p>Shows the current weather of a given city and 5-day forecast.</p>
+          <p>
+            Uses a third-party API to show the current weather of a given city
+            and 5-day forecast.{" "}
+          </p>
+          <i>Skills used: HTML, CSS, JavaScript</i>
           <ProjectLinks>
             <a
               href="https://github.com/amaher112/weather-dashboard.git"
@@ -110,6 +118,7 @@ function Portfolio() {
             fitness and wellness routines, as well as makes certain wellness
             calculations.
           </p>
+          <i>Skills used: Node.js, Express.js, Sequelize, Bcrypt, MySQL</i>
           <ProjectLinks>
             <a
               href="https://github.com/amaher112/shapeShift.git"
@@ -140,6 +149,7 @@ function Portfolio() {
             responsible for the back-end code that saves each new note and
             renders it on the page.
           </p>
+          <i>Skills used: HTML, CSS, JavaScript, Express.js</i>
           <ProjectLinks>
             <a
               href="https://github.com/amaher112/note-taker.git"
@@ -170,6 +180,7 @@ function Portfolio() {
             reactions. I was responsible for all the code and utilized Express
             and Mongoose.
           </p>
+          <i>Skills used: Node.js, Express.js, Mongoose</i>
           <ProjectLinks>
             <a
               href="https://github.com/amaher112/social-network-api.git"
@@ -194,6 +205,7 @@ function Portfolio() {
             anything that the user wants to remember. They can also download the
             application for offline use.
           </p>
+          <i>Skills used: Node.js, Webpack, Express.js</i>
           <ProjectLinks>
             <a
               href="https://github.com/amaher112/pwa-text-editor.git"
