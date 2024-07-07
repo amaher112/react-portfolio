@@ -16,61 +16,6 @@ const ContactBox = styled.div`
   box-sizing: border-box;
 `;
 
-const Form = styled.form`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 40px;
-`;
-// const SubmitButton = styled.button`
- 
-//   border: black;
-//     color: black;
-//   padding: 15px 32px;
-//   text-align: center;
-//   display: inline-block;
-//   font-size: 16px;
-//   margin: 4px 2px;
-//   cursor: pointer;
-//   transition-duration: 0.4s;
-//   border-radius: 12px;
-
-//   &:hover {
-//     // background-color: #45a049;
-//   }
-// `;
-
-const StyledButton = styled.button`
-margin: 30px;
-font-size: 16px;
-color: rgba(45, 147, 108);
-
-`
-const MessageInput = styled.input`
-  width: 50%;
-  height: 200px;
-  margin: 5px;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: rgba(35, 39, 47);
-`;
-
-const Label = styled.label`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  font-weight: bold;
-  font-size: 25px;
-`;
-
-const Input = styled.input`
-  height: 20px;
-  width: 50%;
-  margin: 10px;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: rgba(35, 39, 47);
-`;
-
 function Contact() {
 
 

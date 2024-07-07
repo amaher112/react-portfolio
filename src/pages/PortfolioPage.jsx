@@ -20,8 +20,6 @@ const ProjectBox = styled.div`
   margin: 10px;
   display: flex;
   flex-direction: column;
-
-  
 `;
 
 const ProjectTitle = styled.div`
@@ -33,7 +31,6 @@ const ProjectTitle = styled.div`
 const ProjectLinks = styled.div`
   display: flex;
   justify-content: space-around;
-  
 `;
 
 function Portfolio() {

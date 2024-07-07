@@ -33,9 +33,7 @@ export default function Header() {
         <Link className="nav-link text-light" to="/contact">
         Contact
       </Link>
-      {/* <Link className="nav-link text-light" to="/resume">
-      Resume
-    </Link> */}
+   
     </nav>
     </header>
     </>
